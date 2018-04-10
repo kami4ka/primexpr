@@ -4,11 +4,11 @@ function isInt(n){
 
 module.exports = function isPrime(n) {
     if (!isInt(n)) {
-        throw new Error('Only integer numbers is accepted');
+        throw new Error('Only integer numbers are accepted');
     }
 
     if (n < 0) {
-        throw new Error('Only positive numbers is accepted');
+        throw new Error('Only positive numbers are accepted');
     }
 
     var re = /^.?$|^(..+?)\1+$/;
