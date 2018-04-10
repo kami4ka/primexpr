@@ -1,7 +1,7 @@
 {
   "author": "Oleg Kulyk",
   "name": "primexpr",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Check prime number using only RegExp!",
   "dependencies": {},
   "devDependencies": {
